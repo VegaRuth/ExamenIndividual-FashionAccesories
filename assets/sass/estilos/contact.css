@@ -1,0 +1,30 @@
+#Jumbotron {
+  background-image: url(../images/blog3.jpg);
+  background-repeat: no-repeat;
+  background-blend-mode: color;
+  background-size: 100%;
+  padding: 10% 5% 12% 5%;
+  background-color: rgba(0, 0, 0, 0.4);
+  height: auto;
+  width: 100%;
+  margin: 0%; }
+
+h1 {
+  color: white;
+  background-color: #FF7572;
+  padding: 2%; }
+
+address {
+  color: white; }
+
+#ContactInfo .container {
+  padding: 2%; }
+  #ContactInfo .container .row div {
+    padding: 2%; }
+
+.form-control {
+  background-color: #F2F2F2; }
+
+.btn {
+  background-color: #929292;
+  color: white; }

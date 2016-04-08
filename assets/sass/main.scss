@@ -1,0 +1,113 @@
+@import "estilos/index.scss";
+@import "estilos/contact.scss";
+
+/* Global */
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+a{
+	text-decoration: none;
+}
+.pd2{
+	padding: 2%;
+}
+.mr2{
+	margin-right: 2%;
+}
+.vline{
+	font-size: 3em;
+	display: inline-block;
+	font-weight: light;
+	padding: 0% 10% 0% 10%; 
+} 
+
+#barr3:hover{
+	li {
+	background-color:#E48080;
+}
+}
+
+
+li >.dropdown{
+	background-color: black!important;
+	color: white;
+	padding: 2%;
+	margin: 0%; 
+}
+
+#Banner{
+	margin: 5% !important;
+}
+
+.30%{
+	
+}
+#services{
+	color: #929292;
+	padding: 2%;
+	.row{
+		padding: 2%;
+	}
+	.border{
+		border: #929292 solid 1px;
+		width: 30%;
+		margin-right: 2%;
+		.col-xs-8{
+			padding: 2%;
+		}
+	}
+}
+
+#Final-sec{
+	background-color: #F1F1F1;
+	padding: 2%;
+	color: #929292;
+	a{
+		color: #929292;
+	}
+	li{
+		list-style: none;
+		padding-left: -10%;
+		color: #929292 !important;
+	}
+	.fa, address{
+		color: #929292;
+	}
+}
+
+.bg-white{
+	background-color: white;
+	padding: 5%;
+	.fa{
+		position: center;
+	}
+}
+
+.social{
+	display: inline-block;
+	margin: 1%;
+	width: 15%;
+	height: auto;
+}
+.img-circle{
+	
+	width: 40%;
+	height: auto;
+	padding: 5%;
+	.fa{
+		padding: 5%;
+		position: center;
+	}
+}
+
+footer{
+	background-color: #444444;
+	padding: 1%;
+	color:white;
+	a{
+		color: #A86A6A;
+	}
+}

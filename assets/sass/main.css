@@ -1,0 +1,50 @@
+/*
+Syntax error: Invalid CSS after ".": expected class name, was "30%{"
+        on line 45 of main.scss
+
+40: 
+41: #Banner{
+42: 	margin: 5% !important;
+43: }
+44: 
+45: .30%{
+46: 	
+47: }
+48: #services{
+49: 	color: #929292;
+50: 	padding: 2%;
+
+Backtrace:
+main.scss:45
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:1147:in `expected'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:1085:in `expected'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:1067:in `expr!'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:710:in `class_selector'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:672:in `simple_selector_sequence'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:640:in `_selector'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:619:in `selector'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:603:in `selector_sequence'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:528:in `ruleset'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:553:in `block_child'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:546:in `block_contents'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:82:in `stylesheet'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:27:in `parse'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/engine.rb:342:in `_to_tree'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/engine.rb:315:in `_render'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/engine.rb:262:in `render'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/plugin/compiler.rb:362:in `update_stylesheet'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/plugin/compiler.rb:203:in `block in update_stylesheets'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/plugin/compiler.rb:201:in `each'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/plugin/compiler.rb:201:in `update_stylesheets'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.2.19/lib/sass/plugin/compiler.rb:283:in `block in watch'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.2.19/vendor/listen/lib/listen/multi_listener.rb:108:in `call'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.2.19/vendor/listen/lib/listen/multi_listener.rb:108:in `on_change'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.2.19/vendor/listen/lib/listen/multi_listener.rb:117:in `block in initialize_adapter'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.2.19/vendor/listen/lib/listen/adapters/polling.rb:56:in `call'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.2.19/vendor/listen/lib/listen/adapters/polling.rb:56:in `poll'
+C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/sass-3.2.19/vendor/listen/lib/listen/adapters/polling.rb:32:in `block in start'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Invalid CSS after \".\": expected class name, was \"30%{\"\A         on line 45 of main.scss\A \A 40: \A 41: #Banner{\A 42: 	margin: 5% !important;\A 43: }\A 44: \A 45: .30%{\A 46: 	\A 47: }\A 48: #services{\A 49: 	color: #929292;\A 50: 	padding: 2%;"; }
